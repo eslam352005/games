@@ -1,0 +1,193 @@
+body{
+    background-color: #272B30;
+   height: 100vh;
+    position: relative;
+}
+
+header{
+    background-image: url(images/thumbnail.jpg);
+    height: 40vh;
+    background-position: top;
+   background-size: cover;
+   opacity: 0.1;
+}
+
+
+/* =================================== */
+
+
+
+.navbar{
+    top: 35%;
+    height: 10%;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #3A497B;
+    border-radius: 20px;
+}
+.navbar h5{
+    font-family: "Nerko One", serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    font-family: "Nerko One", serif;
+    color: #0099CC;
+}
+.nav-link {
+    font-family: "Nerko One", serif;
+    color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #0099CC;
+}
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    height: 8%;
+    transform: translate(-50%);
+    background-color: #3A497B;
+    border-radius: 20px;
+    width: 80%; 
+    z-index: 999; 
+  }
+
+
+  /* ======================== */
+  
+
+  .card{
+    background-color:#272B30 ;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+   
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
+  .card-footer{
+    background-color: #272B2F;
+  }
+
+  .card-body h3{
+    font-family: "Nerko One", serif;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .card-body span{
+    font-family: "Nerko One", serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 1;
+  }
+  .card-body span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+    background-color: #0D6EFD;
+    border-radius: 5px;
+    z-index: -1;
+  }
+  .card-content p{ 
+    font-family: "Comfortaa", serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7F8184;
+  }
+  .card-footer span{
+    font-family: "Comfortaa", serif;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    padding: 5px 10px;
+  }
+  .card-footer span::after{
+    content: "";             
+  position: absolute;       
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: RGB(50, 56, 62); 
+  z-index: -1;             
+  border-radius: 5px;       
+  }
+  
+  /* =========================== */
+
+
+ 
+.details h2{
+  font-family: "Nerko One", serif;
+font-size: 50px;
+font-weight: 500;
+
+}
+.details h3{
+  font-family: "Comfortaa", serif;
+font-size: 35px;
+font-weight: 500;
+
+}
+.details h4{
+  font-family: "Comfortaa", serif;
+font-size: 16px;
+font-weight: 400;
+
+}
+.details p{
+  font-family: "Nerko One", serif;
+font-size: 20px;
+font-weight: 400;
+
+}
+.details span{
+  padding: 0px 5px;
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-weight: 600;
+}
+
+.details span::after{
+content: '';
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: RGB(13, 202, 240);
+border-radius: 5px;
+z-index: -1;
+
+}
+
+.details .btn-outline-warning{
+  color: white;
+}
+
+
+
+.Xbutton{
+  position: absolute;
+  top: -50%;
+  left: 100%;
+  cursor: pointer;
+}
+
+
+
+
+
+  /* ====================== */
